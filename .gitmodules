@@ -1,0 +1,6 @@
+[submodule "main/components/nlohmann_json"]
+	path = main/components/nlohmann_json
+	url = https://github.com/nlohmann/json.git
+[submodule "components/nlohmann_json"]
+	path = components/nlohmann_json
+	url = https://github.com/nlohmann/json.git

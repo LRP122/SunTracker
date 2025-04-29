@@ -6,6 +6,7 @@ const gpio_num_t servo_pin = (gpio_num_t)2;
 
 int minimal_angle = 0;
 int maximal_angle = 180;
+std::mutex publish_mtx;
 
 char* ourTaskName = nullptr; // or initialize properly
 
