@@ -6,13 +6,14 @@
 #include "esp_log.h"
 #include "iot_servo.h"
 #include "constants.h"
+#include <ina219.h>
 #include "json.hpp"
 #include "mqtt.h"
 
 namespace panel_functions {
     
     void find_optimal_angle_interrupt(void* params);
-    int measure_voltage(adc1_channel_t input_channel);
+    float measure_voltage();
 
     template <typename T>
     float map(T input,  float max_input, float min_input, float max_output, float min_output){
