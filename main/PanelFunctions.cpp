@@ -28,6 +28,7 @@ namespace panel_functions {
         }
 
     iot_servo_write_angle(LEDC_LOW_SPEED_MODE, 0, optimal_angle);
+    vTaskDelay(pdMS_TO_TICKS(1000));
     }
 
     float measure_voltage(){

@@ -1,7 +1,7 @@
 # SunTracker - Renewable IoT ☀️
 
 Finding the ideal position of a panel to generate as much power as possible is a challenge in solar energy production. 
-This IoT project creates a device that finds the highest voltage a panel can make throughout the day.
+This cool IoT project creates a device that finds the highest voltage a panel can make throughout the day.
 This can be useful for analyzing if a panel is economically feasible in a certain location.
 The data collected in a database can be used for further analysis.
 

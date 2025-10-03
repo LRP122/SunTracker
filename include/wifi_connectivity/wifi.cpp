@@ -265,7 +265,7 @@ void Wifi::wifi_setup(){
     esp_event_loop_create_default();
     nvs_flash_init();
 
-    Wifi::SetCredentials("WIFI", "PW");
+    Wifi::SetCredentials("WLAN", "WGR614wireless");
     Wifi::Init();
 
 }
